@@ -1,0 +1,68 @@
+
+body * {
+  margin: 0;
+  padding: 0;
+}
+div.checkboard{
+  position: relative;
+  margin: 0 auto;
+  height: 1000px;
+  width: 1000px;
+  border: 10px solid #000000;
+}
+div.positions {
+  position: relative;
+  margin: 100px auto;
+  border: 10px solid #000000;
+  height: 80%;
+  width: 80%;
+}
+.black{
+  float: left;
+  width: 100px;
+  height: 100px;
+  background-color: #000000;
+}
+.eight, .six, .four, .two{
+  margin-left: 100px;
+}
+.seven, .five, .three, .one{
+  margin-right: 100px;
+}
+.checker{
+  float: left;
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  margin: 10px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.79);
+}
+.white{
+  background-color: white;
+  border: 2px solid black;
+}
+.red{
+  background-color: red;
+  border: 2px solid black;
+}
+.little{
+  float: left;
+  width: 45px;
+  height: 45px;
+  border-radius: 50px;
+  background-color: #ffffff;
+  margin: 10px;
+  box-shadow: inset 0 0 20px rgba(24, 24, 24, 0.71);
+}
+.top{
+  background-color: #ffffff;
+  border: 2px solid black;
+}
+.bottom{
+  background-color: red;
+  border: 2px solid black;
+}
+
+
+
+
